@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='style.xsl'?>
+<!--Settings used with MSEndpointMgr Driver Automation Tool-->
+<Settings current="True">
+	<SiteSettings>
+		<Server />
+		<Site>N/A</Site>
+	</SiteSettings>
+	<DownloadSettings>
+		<DeploymentPlatform>Download Only</DeploymentPlatform>
+		<DownloadType>Drivers</DownloadType>
+		<OperatingSystem>Windows 10</OperatingSystem>
+		<Architecture>64 bit</Architecture>
+	</DownloadSettings>
+	<StorageSettings>
+		<Download>\\server\sharename</Download>
+		<Package>\\server\sharename</Package>
+	</StorageSettings>
+	<Manufacturer>
+		<Dell>True</Dell>
+		<HP>False</HP>
+		<Lenovo>True</Lenovo>
+		<Microsoft>True</Microsoft>
+	</Manufacturer>
+	<Models />
+	<ConfigMgrImport>
+		<ImportModels />
+	</ConfigMgrImport>
+	<DistributionSettings>
+		<BinaryDifferentialReplication>True</BinaryDifferentialReplication>
+		<ReplicationPriority>Low</ReplicationPriority>
+	</DistributionSettings>
+	<ProxySettings>
+		<UseProxy>False</UseProxy>
+		<Proxy>http://server:port</Proxy>
+	</ProxySettings>
+	<Options>
+		<CleanUnused>False</CleanUnused>
+		<RemoveLegacy>False</RemoveLegacy>
+		<RemoveDriverSource>False</RemoveDriverSource>
+		<RemoveLegacyBIOS>False</RemoveLegacyBIOS>
+		<Compression>False</Compression>
+		<CompressionType />
+		<XMLLogicPackage>False</XMLLogicPackage>
+	</Options>
+	<MDTSettings>
+		<ScriptLocation />
+		<Structure>-1</Structure>
+	</MDTSettings>
+	<DiagSettings>
+		<ConfigMgrWebServiceURL />
+	</DiagSettings>
+</Settings>
